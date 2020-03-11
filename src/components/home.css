@@ -1,0 +1,121 @@
+.mainGrid {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.modelWrap{
+    width: 600px !important;
+}
+
+.imageStyle {
+    height: 150px;
+    width: 150px;
+}
+
+.gridDiv {
+    align-items: center;
+}
+
+.cardStyle {
+    height: auto;
+    margin: 20px;
+}
+
+.cardImg {
+    height: 300px;
+    position: relative;
+}
+
+
+.imageLayout {
+    position: absolute;
+    background-color: #0000008f;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 25px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.cardImg:hover .imageLayout{
+    opacity: 1;
+}
+
+.cardImg .ui {
+    height: 100%;
+}
+
+.ui.card .content img {
+    width: 100%;
+}
+
+.articlesImg {
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.ui.grid .row {
+    justify-content: center !important;
+}
+
+.imageSize{
+    height: 400px;
+}
+
+.menuWrap{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.cardImg img {
+    height: 100% !important;
+    margin: 0 auto;
+}
+
+.ui.horizontal.list > .item {
+    margin-right: 1rem;
+    margin-left: 0 !important;
+}
+
+.ui.modal > .content > .icon + .description, .ui.modal > .content > .image + .description {
+    flex: 1 1 auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ui.segment{
+    border-radius: 0px !important;
+}
+
+@media screen and (max-width: 659px) {
+    .ui.grid > .row {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.modal .content > .image img {
+        margin: 0 auto;
+    }
+
+    .ui.modal .content > .description {
+        align-items: center;
+    }
+
+    .ui.modal .content > .description p {
+        text-align: center;
+    }
+}
+
+/*@media screen and (max-width: 1200px) {*/
+/*    .modal{*/
+/*        width: 600px;*/
+/*    }*/
+/*}*/
